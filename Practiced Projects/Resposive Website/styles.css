@@ -1,0 +1,42 @@
+*{
+    margin:auto;
+    padding:0.4;
+}
+
+h1{
+    font-family: poppins;
+    border: rem solid blueviolet;
+    background-color:rgb(255, 3, 3);
+    color: rgb(255, 255, 255);
+    padding: 0rem;
+    letter-spacing: 5px;
+    display:flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: flex-inline;
+    list-style-position: inside;
+    background-color:yellow;
+}
+
+nav{
+    background-color: yellow;
+    padding: 10px;
+}
+
+li{
+    background-color: blueviolet;
+}
+
+a:hover{
+    background-color: black;
+    color:white;
+    padding: 5px;
+}
+
+a:active{
+    color: black;
+    background-color:#00ffff;
+}
